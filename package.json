@@ -1,0 +1,29 @@
+{
+  "name": "prepend-stream",
+  "version": "1.0.0",
+  "description": "prepend the contents of one stream into another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holodex/prepend-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "prepend",
+    "add"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holodex/prepend-stream/issues"
+  },
+  "homepage": "https://github.com/holodex/prepend-stream#readme",
+  "dependencies": {
+    "defined": "^1.0.0",
+    "inherits": "^2.0.1",
+    "readable-stream": "^2.0.2"
+  }
+}
